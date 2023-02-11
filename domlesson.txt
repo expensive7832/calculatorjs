@@ -1,0 +1,55 @@
+//var a = document.createElement("h1") // <h1></h1>
+//var b = document.querySelector(".buttons")
+//
+//a.innerText = "hello world" // <h1>hello world</h1>
+//a.setAttribute("class", "test") //  <h1 class="test">click</h1>
+//
+//
+//console.log(a)
+//b.append(a)
+//document.getElementById("clear").setAttribute("class", "test")
+
+//document.getElementById("clear").remove()
+
+//document.getElementById("clear").style.backgroundColor = "#000"
+//document.getElementById("clear").style.margin = ""
+
+var a = document.querySelector("#sib").previousElementSibling
+a.innerText = "Hello"
+
+var b = document.getElementById("sib").nextElementSibling;
+
+b.innerText = "next element"
+
+/**
+ 
+common method in dom for manipulation
+
+createElement => this create a new element depend on the tag name specify
+setAttribute => this apply an attribute to an element
+
+append => this insert an element to the html page
+remove => this remove an element from the html page
+
+style => this add a css property to an element programmatically
+
+innerHTML = > this print out the html tag and the content of selected tag
+
+innerText => this print out only text present inside the selected tag
+
+
+
+
+common dom selector method
+
+document.getElmenentById
+document.getElmenentsByClassName
+document.getElmenentsByTagName
+document.getElmenentByName
+document.queryselector
+document.queryselectorall
+siblings
+
+
+
+ */
